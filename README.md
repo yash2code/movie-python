@@ -3,8 +3,6 @@
 - It shows the trailer of my favourite movies.
 - Watch trailer in a single click.
 
-- If possible, include screenshots and demo videos.
-
 ### Inspiration
 
 - It is forked from this [template](https://github.com/adarsh0806/ud036_StarterCode) .
