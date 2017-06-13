@@ -22,8 +22,27 @@ Dark_Knight = media.Movie("The Dark Knight Rises",
                         "http://www.moviesonline.ca/wp-content/uploads/2012/07/the-dark-knight-rises-imax.jpeg",
 						"https://www.youtube.com/watch?v=g8evyE9TuYk")
 
+# Bahubali 2
+Bahubali = media.Movie("Baahubali 2 - The Conclusion",
+                       'Kattappa (Sathyaraj) continues to narrate how he ended up killing Amarendra Baahubali (Prabhas)',
+                        "https://www.desiretrees.in/wp-content/uploads/2017/02/Baahubali-2-New-Poster-Maha-Shivaratri.jpg",
+						"https://www.youtube.com/watch?v=G62HrubdD6o")
 
-movies = [Iron_Man,Harry_Potter,Dark_Knight,Harry_Potter,Dark_Knight,Iron_Man]  # list to pass in the open_movies_page method
+# Dhoom 2
+Dhoom = media.Movie("Dhoom 2",
+                       'Mr. A, a fearless thief, steals valuable artefacts',
+                        "http://www.impawards.com/intl/india/2006/posters/dhoom_2_xlg.jpg",
+						"https://www.youtube.com/watch?v=gUelnhpgUQ4")
+
+# 3 Idiots
+idiots = media.Movie("3 idiots",
+                       'In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.',
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BZWRlNDdkNzItMzhlZC00YTdmLWIwNjktYjY5NjQ1ZmQ3N2FkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY1200_CR133,0,630,1200_AL_.jpg",
+						"https://www.youtube.com/watch?v=xvszmNXdM4w")
+
+
+
+movies = [Iron_Man,Harry_Potter,Dark_Knight,Bahubali,Dhoom,idiots]  # list to pass in the open_movies_page method
 
 fresh_tomatoes.open_movies_page(movies)       # exporting the list to template for generating webpage
 
